@@ -1,0 +1,78 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --color-primary: #3a00b9;
+  --color-secondary: #52585c;
+
+  --fs-7: 0.8rem;
+}
+
+/* Fonts */
+.fs-7 {
+  font-size: var(--fs-7) !important;
+}
+/* End Fonts */
+
+/* Colors */
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.bcolor-primary {
+  background-color: var(--color-primary);
+}
+
+.bcolor-secondary {
+  background-color: var(--color-secondary);
+}
+/* End Colors */
+
+/* Header */
+
+.category-item:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.categoryItem-dropdownTitle:hover{
+    border-bottom: 1px dashed var(--color-primary);
+    background-color: transparent;
+}
+
+.categoryItem-dropdownItem{
+    margin-right: 0;
+    transition: margin-right .3s ease-in-out;
+}
+
+.categoryItem-dropdownItem:hover{
+    margin-right: 5px;
+    background-color: transparent;
+    border-bottom: none !important;
+}
+
+#cardInterest {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+#cardInterest:hover {
+  background-color: var(--color-primary) !important;
+}
+
+/* End Header */
